@@ -33,9 +33,6 @@
     flex-shrink: 0;
     border-bottom: 1px solid #002B81;
 
-
-
-
   }
   
   .sidebar .menu-item img {
@@ -92,7 +89,7 @@
   .user-info .profile-icon {
     width: 32px;
     height: 32px;
-    border-radius: 50%; /* Make profile icon round */
+    border-radius: 50%; 
     object-fit: cover;
   }
   
@@ -116,7 +113,6 @@
   }
   
 
-
   /* Property Grid */
  .property-grid {
     display: flex;
@@ -125,6 +121,8 @@
     justify-content: space-between;
  }
   
+
+ 
   .property-card {
     display: flex;
     padding: 8px 12px;
@@ -143,16 +141,22 @@
     height: 275px;
     align-self: stretch;
     border-radius: 24px 24px 0px 0px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>) lightgray 50%
+
   }
   
-  .property-card h3 {
+  .property-card span {
+    color: #000;
+    font-family: Inter;
     font-size: 18px;
-    margin: 15px 0 5px;
+    font-style: normal;
+    
   }
   
   .property-card p {
+    color: #606060;
+    font-family: Inter;
     font-size: 14px;
-    color: #666;
-    margin-bottom: 15px;
+    font-style: normal;
+   
   }
