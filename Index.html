@@ -7,57 +7,101 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-        <img src="images/search .svg" alt="search" class="search">
-      <div class="search-bar">
-        <input type="text" placeholder="Search in homes, Apartments, Villas..." />
+  <div class="main-layout">
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+      <div class="logo">
+        <img src="images/1logo.png" alt="Logo">
       </div>
-      <div class="user-info">
-        <span>Brooklyn Simmons</span>
+      <div class="menu-item">
+        <img src="images/1.svg" alt="Home Icon">
       </div>
-    </header>
-
-    <div class="filters">
-      <button>Spain, Madrid</button>
-      <button>24 - 28 July</button>
-      <button>2 guest</button>
+      <div class="menu-item">
+        <img src="images/2.svg" alt="Users Icon">
+      </div>
+      <div class="menu-item">
+        <img src="images/3.svg" alt="Documents Icon">
+      </div>
+      <div class="menu-item">
+        <img src="images/4.svg" alt="notebook Icon">
+      </div>
     </div>
-
-    <section class="property-grid">
-      <div class="property-card">
-        <img src="images/picture 1.png" alt="Individual Modern House">
-        <h3>Individual Modern House</h3>
-        <p>1903 St, Lasanta Alley, 21</p>
+    <!-- Main Content Area -->
+    <div class="content">
+      <!-- Top Header -->
+      <div class="top-header">
+        <div class="search-bar">
+                <img src="images/search .svg"  alt="search">
+                <input type="text" placeholder="Search in homes, Apartments, Villas...">
+        </div>
+        <div class="user-info">
+          <span>Brooklyn Simmons</span>
+          <img src="images/person.svg" alt="profile" class="profile-icon">
+        </div>
       </div>
 
-      <div class="property-card">
-        <img src="images/picture 2.png" alt="Glossy Twin Villa">
-        <h3>Glossy Twin Villa</h3>
-        <p>148 St, Locha Alley, 11028</p>
+      <!-- Filters -->
+      <div class="filters">
+        <div class="filter-item">
+        <img src="images/1 addres blue.svg" alt="Location" >
+        <span> Spain, Madrid</span>
+        </div>
+        <div class="filter-item">
+        <img src="images/2 blue.svg" alt="calendar">
+        <span>24 - 28 July</span>
+        </div>
+        <div class="filter-item">
+        <img src="images/3blue.svg" alt="group">
+        <span>2 guest</span>
+        </div>
       </div>
 
-      <div class="property-card">
-        <img src="https://via.placeholder.com/300x200" alt="Palmasantos Hosting House">
-        <h3>Palmasantos Hosting House</h3>
-        <p>172 St, Palma Alley, 10911</p>
-      </div>
-      <div class="property-card">
-        <img src="https://via.placeholder.com/300x200" alt="Tropic Flat Villa">
-        <h3>Tropic Flat Villa</h3>
-        <p>1903 St, Lasanta Alley, 21</p>
-      </div>
-      <div class="property-card">
-        <img src="https://via.placeholder.com/300x200" alt="Individual Villa">
-        <h3>Individual Villa</h3>
-        <p>26 St, Southwood Alley, 11062</p>
-      </div>
-      <div class="property-card">
-        <img src="https://via.placeholder.com/300x200" alt="Mini Doub House">
-        <h3>Mini Doub House</h3>
-        <p>1903 St, Lasanta Alley, 21</p>
-      </div>
-    </section>
+      <!-- Property Grid -->
+      <section class="property-grid">
+        <div class="property-card">
+          <div class="property-image">
+            <img src="images/picture 1.png" alt="Individual Modern House">
+          </div>
+          <span>Individual Modern House</span>
+          <p>1903 St, Lasanta Alley, 21</p>
+        </div>
+        <div class="property-card">
+          <div class="property-image">
+            <img src="images/picture3.png" alt="Glossy Twin Villa">
+          </div>
+          <span>Glossy Twin Villa</span>
+          <p>148 St, Locha Alley, 11028</p>
+        </div>
+        <div class="property-card">
+          <div class="property-image">
+            <img src="images/picture5.png" alt="Palmasantos Hosting House">
+          </div>
+          <span>Palmasantos Hosting House</span>
+          <p>172 St, Palma Alley, 10911</p>
+        </div>
+        <div class="property-card">
+          <div class="property-image">
+            <img src="images/picture 2.png" alt="Tropic Flat Villa">
+          </div>
+          <span>Tropic Flat Villa</span>
+          <p>1903 St, Lasanta Alley, 21</p>
+        </div>
+        <div class="property-card">
+          <div class="property-image">
+            <img src="images/picture4.png" alt="Individual Villa">
+          </div>
+          <span>Individual Villa</span>
+          <p>26 St, Southwood Alley, 11062</p>
+        </div>
+        <div class="property-card">
+          <div class="property-image">
+            <img src="images/picture6.png" alt="Mini Doub House">
+          </div>
+          <span>Mini Doub House</span>
+          <p>1903 St, Lasanta Alley, 21</p>
+        </div>
+      </section>
+    </div>
   </div>
 </body>
 </html>
